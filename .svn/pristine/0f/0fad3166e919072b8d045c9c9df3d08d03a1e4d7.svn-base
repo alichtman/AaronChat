@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#499FF4</color>
+    <color name="colorPrimaryDark">#1757ab</color>
+    <color name="colorAccent">#3b6a99</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+    <color name="white">#f9f1f1</color>
+    <color name="off_black">#141616</color>
+    <color name="grey_300">#41484b</color>
+
+    <color name="user0">#499FF4</color>
+    <color name="user1">#e17842</color>
+    <color name="user2">#6060d1</color>
+    <color name="user3">#2b8361</color>
+    <color name="user4">#ab546a</color>
+    <color name="user5">#b6d12d</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="grey_100">#9ca6ab</color>
+    <color name="grey_900">#263238</color>
+</resources>

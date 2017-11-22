@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context="com.example.android.aaronchat.ChatMessageSelectionActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:hapticFeedbackEnabled="true"
+        android:minHeight="68dp"
+        android:textAlignment="gravity"
+        android:textDirection="inherit"
+        android:theme="@style/ToolBarTheme"
+        android:visibility="visible"
+        app:itemBackground="@color/colorPrimaryDark"
+        app:itemTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_keyboard_backspace_white_24px"
+        app:title="Chat Name Here"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        app:titleTextColor="@color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messagesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floatingActionsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="75"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white_24px"
+        app:menu_colorNormal="@color/colorPrimary"
+        app:menu_colorPressed="@color/colorPrimaryDark"
+        app:layout_anchorGravity="bottom|right|end"
+        app:fab_labelsPosition="left">
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_insert_comment_white_24px"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_colorRipple="#99FFFFFF"
+            app:fab_showShadow="true"
+            app:fab_shadowColor="#616161"
+            app:fab_shadowRadius="4dp"
+            app:fab_shadowXOffset="1dp"
+            app:fab_shadowYOffset="3dp"
+            app:fab_size="mini"
+            app:fab_showAnimation="@anim/fab_scale_up"
+            app:fab_hideAnimation="@anim/fab_scale_down"
+            app:fab_label="Send new message" />
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/messageConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--Note that what follows is slightly different from lecture.  To get the TextViews to
+    fill the space up to but not into the edges, I've set their width to 0dp.  This is the
+    way to do it in the most recent version of ConstraintLayout -->
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="280dp"
+        android:layout_height="28dp"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="9dp"
+        android:gravity="top|center"
+        android:paddingBottom="2dp"
+        android:paddingEnd="6dp"
+        android:paddingStart="3dp"
+        android:paddingTop="4dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/messageTextView"
+        app:layout_constraintLeft_toRightOf="@+id/profileImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="username" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:padding="3dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="4dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/profileImageView"
+        tools:text="Sent message here." />
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="315dp"
+        android:background="@drawable/ic_user"
+        android:contentDescription="@string/user_profile_picture"
+        android:padding="2dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
