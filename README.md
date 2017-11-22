@@ -2,7 +2,7 @@
 #### Android Messaging App
 ---
 
-Below are two screen mockups completed during the design phase of the project.
+Below are two screen mockups from the design phase of the project.
 
 
  ![Application Screen Mockup](https://github.com/alichtman/AaronChat/blob/master/Screen%20Shot%202017-11-22%20at%204.33.02%20PM.png?raw=true "Screen Mockup")
