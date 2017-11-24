@@ -11,7 +11,13 @@ Below are two screen mockups from the design phase of the project.
 ### Features
 ---
 
-1. Firebase backend implemented to provide for real-time global updating. 
-2. Google OAuth2 user authentication and comprehensive database access control rules. 
-3. Support for both direct and group conversations. 
-4. Inuitive, easily navigated interface.
+1. Clean and intuitive interface
+2. Support for both direct and group conversations. 
+3. Real time global updating of conversations.
+
+### Technical Details
+---
+
+1. Built in Android studio.
+2. Firebase backend implemented to provide for real-time global updating. 
+3. Google OAuth2 user authentication and comprehensive database access control rules. 
